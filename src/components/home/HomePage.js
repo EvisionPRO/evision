@@ -6,10 +6,10 @@ class HomePage extends React.Component {
     super(props);
 
     this.state = {
-      number: '0'
+      number: 0
     };
-    // this.IncrementNumber = this.IncrementItem.bind(this);
-    // this.DecreaseNumber = this.DecreaseItem.bind(this);
+    this.IncrementNumber = this.IncrementNumber.bind(this);
+    this.DecreaseNumber = this.DecreaseNumber.bind(this);
   }
 
   IncrementNumber() {
