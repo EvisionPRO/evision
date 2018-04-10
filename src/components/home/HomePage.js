@@ -17,7 +17,6 @@ class HomePage extends React.Component {
     this.setState({ number: number});
   }
   DecreaseNumber() {
-    console.log('jarek', this.state.number);
     this.setState({ number: this.state.number - 1 });
   }
 
