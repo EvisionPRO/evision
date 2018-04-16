@@ -25,6 +25,17 @@ class HomePage extends React.Component {
 
     return (
       <div>
+        <div className="video-header-wrapper">
+          <video className="video-wrapper" autoPlay loop muted>
+              <source src='https://s3.amazonaws.com/evisionpro/media/evision-video.mp4' type='video/mp4' />
+          </video>
+
+          <div className="video-content-wrapper">
+            <p>Hello, my name is Jarek Sliz and I'am a</p>
+            <h1>Front End Web Developer</h1>
+            <p>creating MODERN and RESPONSIVE Web Applications</p>
+          </div>
+        </div>
         <div className="jumbotron">
           <h1>Here is my First Bookstore</h1>
           <p>Here is a few information about a new react and redux bookstore</p>
