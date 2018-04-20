@@ -2,23 +2,21 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, IndexLink } from 'react-router';
 import Scrollchor from 'react-scrollchor';
-import logo from '../../images/logo.png';
 
 import './styles.css';
 
 const Header = () => {
   return (
     <nav className="nav-wrapper">
-      <IndexLink to="/" activeClassName="active">
-        <img src={logo} />
+      <IndexLink to="/" activeClassName="active">Home
       </IndexLink>
       <div className="links-wrapper">
-        <Link to="/about" activeClassName="active">Services</Link>
-        <Link to="/about" activeClassName="active">Work</Link>
-        <Link to="/about" activeClassName="active">Skills</Link>
-        <Scrollchor to="#section03">Sample 3</Scrollchor>
-        <Scrollchor to="#section01">Sample 1</Scrollchor>
-        <Scrollchor to="#section02">Sample 2</Scrollchor>
+        <Link to="/about" activeClassName="active" className="nav-item">Services</Link>
+        <Link to="/about" activeClassName="active" className="nav-item">Work</Link>
+        <Link to="/about" activeClassName="active" className="nav-item">Skills</Link>
+        <Scrollchor to="#section03" className="nav-item">Sample 3</Scrollchor>
+        <Scrollchor to="#section01" className="nav-item">Sample 1</Scrollchor>
+        <Scrollchor to="#section02" className="nav-item">Sample 2</Scrollchor>
       </div>
     </nav>
   );

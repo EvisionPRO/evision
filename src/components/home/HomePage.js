@@ -27,7 +27,7 @@ class HomePage extends React.Component {
       <div>
         <div className="video-header-wrapper">
           <video className="video-wrapper" autoPlay loop muted>
-              <source src='https://s3.amazonaws.com/evisionpro/media/evision-video.mp4' type='video/mp4' />
+              <source src="https://s3.amazonaws.com/evisionpro/media/evision-video.mp4" type="video/mp4" />
           </video>
 
           <div className="video-content-wrapper">
