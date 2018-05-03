@@ -1,0 +1,15 @@
+.footer-wrapper {
+  width: 100vw;
+  height: 55px;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #051f3a;
+}
+
+span {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+}
