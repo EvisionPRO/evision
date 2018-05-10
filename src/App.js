@@ -10,7 +10,7 @@ class App extends Component {
         <Header />
 
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          To get started, hees edit <code>src/App.js</code> and save to reload.
         </p>
 
         <Footer />
